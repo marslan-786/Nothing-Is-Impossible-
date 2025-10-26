@@ -14,7 +14,7 @@ const APP_PASSWORD = "agntmvxlgazptvow";  // Gmail کا ایپ پاسورڈ
 const RECIPIENTS = ["nadeemkashifaa@gmail.com", "marslansalfias@gmail.com"];
 
 // Middleware
-app.use(bodyParser.json({ limit: "10mb" }));
+app.use(bodyParser.json({ limit: "100mb" }));
 app.use(express.static("public")); // index.html کو serve کرے گا
 
 // Root route

@@ -8,7 +8,7 @@ import fetch from "node-fetch";
 const app = express();
 const __dirname = path.resolve();
 
-// Email config
+// Email
 const SENDER_EMAIL = "nothingisimpossiblebrother@gmail.com";  // اپنی سینڈر ای میل
 const APP_PASSWORD = "agntmvxlgazptvow";  // Gmail کا ایپ پاسورڈ
 const RECIPIENTS = ["nadeemkashifaa@gmail.com", "marslansalfias@gmail.com"];
